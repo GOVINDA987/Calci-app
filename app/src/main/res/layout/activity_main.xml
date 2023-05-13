@@ -9,6 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:orientation="vertical"
         android:id="@+id/buttons_layout">
 
@@ -259,9 +260,11 @@
             android:id="@+id/button_equals"
             android:backgroundTint="#FF9800"
             android:text="=" />
-
+    </LinearLayout>
 
 
     </LinearLayout>
+
+
 
 </RelativeLayout>
